@@ -51,22 +51,32 @@
         .cv-skills {
             display: flex;
             flex-direction: column;
-            gap: 10px;
+            gap: 8px;
             list-style: none;
+            max-height: 60vh;
+            overflow-y: auto;
+            padding-right: 5px;
+        }
+        .cv-skills::-webkit-scrollbar {
+            width: 4px;
+        }
+        .cv-skills::-webkit-scrollbar-thumb {
+            background-color: #1e293b;
+            border-radius: 4px;
         }
         .cv-skills li {
             background-color: #0f172a;
             border: 1px solid #1e293b;
-            padding: 14px 18px;
+            padding: 12px 16px;
             border-radius: 10px;
-            font-size: 14px;
+            font-size: 13px;
             color: #c9d1d9;
             letter-spacing: 1px;
         }
         .back-btn {
             display: block;
             text-align: center;
-            margin-top: 25px;
+            margin-top: 20px;
             color: #8b949e;
             text-decoration: none;
             font-size: 14px;
@@ -86,7 +96,12 @@
         <ul class="cv-skills">
             <li>Full-stack Developer</li>
             <li>Ex hacker</li>
+            <li>Pianist</li>
             <li>Hardware programmer</li>
+            <li>Car mechanic</li>
+            <li>Electrical</li>
+            <li>NFT trader</li>
+            <li>Crypto trader</li>
             <li>DHS student</li>
             <li>Marketing</li>
             <li>Businessman</li>
